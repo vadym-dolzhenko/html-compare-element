@@ -1,0 +1,17 @@
+{
+  "origin": {
+    "path": "HTML[0] > BODY[1] > DIV[0] > DIV[1] > DIV[2] > DIV[0] > DIV[0] > DIV[1] > A[0]",
+    "HTML": "<a id=\"make-everything-ok-button\" class=\"btn btn-success\" href=\"#ok\" title=\"Make-Button\" rel=\"next\" onclick=\"javascript:window.okDone(); return false;\">\n                              Make everything OK\n                            </a>"
+  },
+  "diff": {
+    "HTML[0] > BODY[1] > DIV[0] > DIV[1] > DIV[2] > DIV[0] > DIV[0] > DIV[2] > A[0]": {
+      "HTML": "<a class=\"btn btn-success\" href=\"#ok\" title=\"Make-Button\" rel=\"next\" onclick=\"javascript:window.okFinalize(); return false;\">\n                            Do all GREAT\n                          </a>",
+      "matched": [
+        "class=\"btn btn-success\"",
+        "href=\"#ok\"",
+        "title=\"Make-Button\"",
+        "rel=\"next\""
+      ]
+    }
+  }
+}
